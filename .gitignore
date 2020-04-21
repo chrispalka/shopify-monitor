@@ -1,11 +1,11 @@
 proxies.txt
+config.json
 monitor-database.sqlite3
 monitor-database.sqlite3-journal
 gs
 logs
 *.log
 npm-debug.log*
-
 logs
 
 # Runtime data
