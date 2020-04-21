@@ -1,6 +1,6 @@
 {
   "port": 3000,
-  "mongodb_uri": "mongodb://127.0.0.1:27017",
+  "mongodb_uri": "mongodb://heroku_j074w69p:u7c5i2mp29p4gh1lqkfqjhddk4@ds151433.mlab.com:51433/heroku_j074w69p",
   "slack": {
       "active": false,
       "webhook_url": ""
