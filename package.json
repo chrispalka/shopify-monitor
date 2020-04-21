@@ -3,6 +3,9 @@
   "version": "3.2.1",
   "description": "",
   "main": "server.js",
+  "engines" : {
+    "node" : "13.8.x"
+  },
   "scripts": {
     "dev": "nodemon server.js"
   },
