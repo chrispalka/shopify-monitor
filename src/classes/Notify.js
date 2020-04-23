@@ -84,11 +84,6 @@ Notify.discord = function (webhook_url, url, brand, metadata, type, color) {
 				"thumbnail": {
 					"url": metadata.img
 				},
-				"author": {
-					"name": "Shopify Monitor",
-					"url": "https://discordapp.com",
-					"icon_url": "https://cdn.discordapp.com/embed/avatars/0.png"
-				},
 				"fields": [{
 					"name": "Notification Type",
 					"value": type,
@@ -113,10 +108,6 @@ Notify.discord = function (webhook_url, url, brand, metadata, type, color) {
 					"name": "ATC",
 					"value": links,
 					"inline": true
-				}, {
-					"name": "Quick Tasks",
-					"value": qtFormatted
-
 				}]
 			}]
 		});
