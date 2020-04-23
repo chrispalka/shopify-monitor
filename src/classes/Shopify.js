@@ -10,7 +10,7 @@ Shopify.parseSitemap = function (url, proxy, userAgent, callback) {
 		method: 'get',
 		url: 'https://' + url + '/sitemap.xml',
 		proxy: proxy,
-		gzip: true,	
+		gzip: true,
 		headers: {
 			'User-Agent': userAgent
 		}
@@ -209,7 +209,8 @@ Shopify.getStockData = function (url, proxy, callback) {
 					const variantData = {
 						baseUrl,
 						id: jsonBodyProduct.product.variants[i].id,
-						title: jsonBodyProduct.product.variants[i].option1
+						title: jsonBodyProduct.product.variants[i].option1,
+						size: jsonBodyProduct.product.variants[i].option2
 					};
 
 					// data.push('<' + baseUrl + '/cart/' + jsonBodyProduct.product.variants[i].id + ':1' + '|' + jsonBodyProduct.product.variants[i].option1 +'>')
